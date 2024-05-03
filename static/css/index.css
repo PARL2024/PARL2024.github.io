@@ -159,3 +159,14 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.interpolation-image-85 {
+  width: 85%;         /* Rescale the image to 85% of its container */
+  display: block;     /* Allows margin: auto to work for horizontal centering */
+  margin: 0 auto;     /* Centers the image horizontally */
+}
+
+.interpolation-image {
+  display: block;     /* Allows margin: auto to work for horizontal centering */
+  margin: 0 auto;     /* Centers the image horizontally */
+}

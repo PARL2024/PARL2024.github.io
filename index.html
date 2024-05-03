@@ -226,7 +226,7 @@
         <!-- <br> -->
         </div>
         <img src="media/architecture.png" class="interpolation-image"
-         alt="Overview." />
+             alt="Overview." />
         <p><span class="dnerf">PARL</span> takes paired natural language instructions and demonstration trajectories as inputs.
           It recovers object-level concepts such as shapes and colors, and action concepts from the natural language.
           It then learns a planning-compatible model for object and action concepts.
@@ -243,8 +243,8 @@
         <div class="content has-text-justified">
         <!-- <br> -->
         </div>
-        <img src="media/prompt.png" class="interpolation-image"
-         alt="Overview." />
+        <img src="media/prompt.png" class="interpolation-image-85"
+             alt="Overview." />
         <p><span class="dnerf">PARL</span> prompts a pretrained large language model (LLM) to parse instructions into
           a symbolic formula. Next, we extract the object-level and action concepts from the formulas.</p>
         <br><br>
@@ -253,8 +253,8 @@
         <div class="content has-text-justified">
         <!-- <br> -->
         </div>
-        <img src="media/model.png" class="interpolation-image"
-         alt="Overview." />
+        <img src="media/model.png" class="interpolation-image-85"
+             alt="Overview."/>
         <p><span class="dnerf">PARL</span> grounds the discovered symbols using the demonstration data and interactions with the environment.
           We learn planning-compatible models, composed of (a) an object-level PCT encoder for
           extracting state abstractions and (b) an abstract transition Transformer for abstract transition and the feasibility prediction.</p>
@@ -274,7 +274,7 @@
         <!-- <br> -->
         </div>
         <img src="media/babyai.png" class="interpolation-image"
-         alt="Overview." />
+             alt="Overview." />
         <p><span class="dnerf">PARL</span> can solve BabyAI tasks that requires a minimum of 5 abstract actions while only training on examples with at most 3 abstract actions.
           Each figure visualizes the initial state of the environment and the location of the agent (represented by the red arrow).
           On the right of each figure, the sequence of planned abstract actions is listed. The last abstract action in each list is the goal abstract action in the given language instruction.
@@ -285,7 +285,7 @@
         <!-- <br> -->
         </div>
         <img src="media/kitchen.png" class="interpolation-image"
-         alt="Overview." />
+             alt="Overview." />
         <p><span class="dnerf">PARL</span> can also work on more visually complex 3D environments.
           Given the language goal of placing blue mug in the sink, <span class="dnerf">PARL</span> can reason about the geometry of the
           environment and perform planning with learned abstract latent space to predict the sequence of abstract actions.
